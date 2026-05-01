@@ -1,0 +1,30 @@
+name: Content removal request
+description: Request removal or correction of a prompt entry
+title: "[Content Removal] <prompt slug or title>"
+labels: ["content-removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form if you are a creator or rights holder and want a prompt entry corrected or removed.
+  - type: input
+    id: prompt
+    attributes:
+      label: Prompt entry
+      description: Prompt title, slug, or README link.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original source or ownership reference
+      description: Link that helps us verify the request.
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Requested action
+      description: Tell us whether you want removal, attribution correction, or another change.
+    validations:
+      required: true

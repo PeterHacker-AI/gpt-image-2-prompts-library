@@ -1,0 +1,11 @@
+{
+  "name": "awesome-gpt-image-2-prompts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static snapshot repository for the AIGPTIMAGE GPT Image 2 prompt library.",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-readme.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  }
+}

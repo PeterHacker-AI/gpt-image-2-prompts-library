@@ -1,0 +1,19 @@
+- name: content-removal
+  color: 'd73a4a'
+  description: 'Request removal or correction of prompt content.'
+
+- name: attribution
+  color: '0366d6'
+  description: 'Creator attribution or source metadata correction.'
+
+- name: documentation
+  color: '0075ca'
+  description: 'Documentation or README update.'
+
+- name: data
+  color: '5319e7'
+  description: 'Prompt JSON or CDN manifest update.'
+
+- name: good first issue
+  color: '7057ff'
+  description: 'Small, well-scoped maintenance task.'

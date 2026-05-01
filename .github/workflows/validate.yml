@@ -1,0 +1,30 @@
+name: Validate repository
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate data
+        run: npm run validate
+
+      - name: Regenerate README
+        run: npm run generate
+
+      - name: Ensure README is committed
+        run: git diff --exit-code README.md

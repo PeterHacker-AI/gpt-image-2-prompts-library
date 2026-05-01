@@ -1,0 +1,68 @@
+name: Sync labels
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/labels.yml'
+      - '.github/workflows/sync-labels.yml'
+
+permissions:
+  issues: write
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync labels
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const source = fs.readFileSync('.github/labels.yml', 'utf8');
+            const labels = [];
+            let current = null;
+
+            for (const line of source.split('\n')) {
+              const trimmed = line.trim();
+              if (trimmed.startsWith('- name:')) {
+                if (current) labels.push(current);
+                current = {
+                  name: trimmed.replace('- name:', '').trim().replace(/^['"]|['"]$/g, ''),
+                  color: '',
+                  description: '',
+                };
+              } else if (current && trimmed.startsWith('color:')) {
+                current.color = trimmed.replace('color:', '').trim().replace(/^['"]|['"]$/g, '');
+              } else if (current && trimmed.startsWith('description:')) {
+                current.description = trimmed.replace('description:', '').trim().replace(/^['"]|['"]$/g, '');
+              }
+            }
+            if (current) labels.push(current);
+
+            const existing = await github.rest.issues.listLabelsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              per_page: 100,
+            });
+            const existingNames = new Set(existing.data.map((label) => label.name));
+
+            for (const label of labels) {
+              const payload = {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: label.name,
+                color: label.color.replace('#', ''),
+                description: label.description,
+              };
+
+              if (existingNames.has(label.name)) {
+                await github.rest.issues.updateLabel(payload);
+              } else {
+                await github.rest.issues.createLabel(payload);
+              }
+            }
