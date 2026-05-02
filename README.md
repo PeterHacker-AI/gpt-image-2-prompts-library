@@ -24,8 +24,8 @@ Curated GPT Image 2 prompt examples prepared from the AIGPTIMAGE prompt library.
 
 | Metric | Value |
 | --- | ---: |
-| Prompt entries | 287 |
-| Categories | 10 |
+| Prompt entries | 778 |
+| Categories | 16 |
 | Primary model | GPT Image 2 |
 | Image hosting | `cdn.aigptimage.com` |
 | Snapshot date | 2026-05-02 |
@@ -41,16 +41,22 @@ Curated GPT Image 2 prompt examples prepared from the AIGPTIMAGE prompt library.
 
 | Category | Slug | Entries |
 | --- | --- | ---: |
-| [Illustration](https://aigptimage.com/image-prompts/illustration) | `illustration` | 117 |
-| [Infographics](https://aigptimage.com/image-prompts/infographics) | `infographics` | 91 |
-| [UI / Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup) | `ui-social-mockup` | 55 |
-| [Portrait / Avatar](https://aigptimage.com/image-prompts/portrait-avatar) | `portrait-avatar` | 51 |
-| [Creative Experiments](https://aigptimage.com/image-prompts/creative-experiments) | `creative-experiments` | 47 |
-| [Comparison](https://aigptimage.com/image-prompts/comparison) | `comparison` | 47 |
-| [Product Advertising](https://aigptimage.com/image-prompts/product-advertising) | `product-advertising` | 32 |
-| [E-commerce](https://aigptimage.com/image-prompts/ecommerce) | `ecommerce` | 17 |
-| [Ad Creative](https://aigptimage.com/image-prompts/ad-creative) | `ad-creative` | 15 |
-| [Character Design](https://aigptimage.com/image-prompts/character-design) | `character-design` | 11 |
+| [Illustration & Art](https://aigptimage.com/image-prompts/illustration-art) | `illustration-art` | 306 |
+| [Infographics & Education](https://aigptimage.com/image-prompts/infographics-education) | `infographics-education` | 127 |
+| [UI & Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup) | `ui-social-mockup` | 104 |
+| [Portrait & Photography](https://aigptimage.com/image-prompts/portrait-photography) | `portrait-photography` | 103 |
+| [E-commerce & Product](https://aigptimage.com/image-prompts/ecommerce-product) | `ecommerce-product` | 89 |
+| [Ads & Marketing](https://aigptimage.com/image-prompts/ads-marketing) | `ads-marketing` | 89 |
+| [Creative Experiments](https://aigptimage.com/image-prompts/creative-experiments) | `creative-experiments` | 64 |
+| [Poster & Typography](https://aigptimage.com/image-prompts/poster-typography) | `poster-typography` | 31 |
+| [Fashion & Beauty](https://aigptimage.com/image-prompts/fashion-beauty) | `fashion-beauty` | 28 |
+| [Character Design](https://aigptimage.com/image-prompts/character-design) | `character-design` | 21 |
+| [Food & Drink](https://aigptimage.com/image-prompts/food-drink) | `food-drink` | 15 |
+| [Video, Collage & Storyboard](https://aigptimage.com/image-prompts/video-collage-storyboard) | `video-collage-storyboard` | 14 |
+| [Diagrams & Reference](https://aigptimage.com/image-prompts/diagram-reference) | `diagram-reference` | 10 |
+| [Game & Entertainment](https://aigptimage.com/image-prompts/game-entertainment) | `game-entertainment` | 9 |
+| [Image Editing & Restoration](https://aigptimage.com/image-prompts/image-editing) | `image-editing` | 1 |
+| [Architecture & Interior](https://aigptimage.com/image-prompts/architecture-interior) | `architecture-interior` | 1 |
 
 ## Featured Examples
 
@@ -61,7 +67,7 @@ Curated GPT Image 2 prompt examples prepared from the AIGPTIMAGE prompt library.
 
 Use this GPT Image 2 prompt case to recreate E-commerce Main Image - Luxury Amber Perfume Ad with the visual direction shown in the example output.
 
-- Categories: [E-commerce](https://aigptimage.com/image-prompts/ecommerce), [Product Advertising](https://aigptimage.com/image-prompts/product-advertising)
+- Categories: [E-commerce & Product](https://aigptimage.com/image-prompts/ecommerce-product), [Ads & Marketing](https://aigptimage.com/image-prompts/ads-marketing)
 - Creator: [Polanco_IA](https://x.com/Polanco_IA)
 - Source: [Source post](https://x.com/Polanco_IA/status/2047689647967609037)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/e-commerce-main-image-luxury-amber-perfume-ad)
@@ -77,7 +83,7 @@ A luxurious cinematic product photograph of a classic rectangular perfume bottle
 
 Use this GPT Image 2 prompt case to recreate Chengdu Food Map Illustration with the visual direction shown in the example output.
 
-- Categories: [Illustration](https://aigptimage.com/image-prompts/illustration), [Infographics](https://aigptimage.com/image-prompts/infographics)
+- Categories: [Illustration & Art](https://aigptimage.com/image-prompts/illustration-art), [Infographics & Education](https://aigptimage.com/image-prompts/infographics-education)
 - Creator: [Panda20230902](https://x.com/Panda20230902)
 - Source: [Source post](https://x.com/Panda20230902/status/2045396918965285111)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/chengdu-food-map-illustration)
@@ -93,7 +99,7 @@ Use this GPT Image 2 prompt case to recreate Chengdu Food Map Illustration with 
 
 Use this GPT Image 2 prompt case to recreate Science Encyclopedia Infographic with the visual direction shown in the example output.
 
-- Categories: [Illustration](https://aigptimage.com/image-prompts/illustration), [Infographics](https://aigptimage.com/image-prompts/infographics)
+- Categories: [Illustration & Art](https://aigptimage.com/image-prompts/illustration-art), [Infographics & Education](https://aigptimage.com/image-prompts/infographics-education)
 - Creator: [MrLarus](https://x.com/MrLarus)
 - Source: [Source post](https://x.com/MrLarus/status/2046231542817497392)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/science-encyclopedia-infographic)
@@ -109,7 +115,7 @@ Use this GPT Image 2 prompt case to recreate Science Encyclopedia Infographic wi
 
 Use this GPT Image 2 prompt case to recreate Luxury Glam Beauty Portrait with the visual direction shown in the example output.
 
-- Categories: [Portrait / Avatar](https://aigptimage.com/image-prompts/portrait-avatar)
+- Categories: [Portrait & Photography](https://aigptimage.com/image-prompts/portrait-photography)
 - Creator: [patrickassale](https://x.com/patrickassale)
 - Source: [Source post](https://x.com/patrickassale/status/2044581766309060765)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/luxury-glam-beauty-portrait)
@@ -125,7 +131,7 @@ Luxury Glam Beauty Portrait:, Beautiful Black woman, youthful spirit, creamy van
 
 Use this GPT Image 2 prompt case to recreate Anime Character Brand Identity & Merch Board with the visual direction shown in the example output.
 
-- Categories: [Ad Creative](https://aigptimage.com/image-prompts/ad-creative), [Product Advertising](https://aigptimage.com/image-prompts/product-advertising), [Illustration](https://aigptimage.com/image-prompts/illustration)
+- Categories: [Ads & Marketing](https://aigptimage.com/image-prompts/ads-marketing), [E-commerce & Product](https://aigptimage.com/image-prompts/ecommerce-product), [Illustration & Art](https://aigptimage.com/image-prompts/illustration-art)
 - Creator: [chi_vc_](https://x.com/chi_vc_)
 - Source: [Source post](https://x.com/chi_vc_/status/2046061073720369228)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/anime-character-brand-identity-merch-board)
@@ -141,7 +147,7 @@ Use this GPT Image 2 prompt case to recreate Anime Character Brand Identity & Me
 
 Use this GPT Image 2 prompt case to recreate Dark Mode Marketing Case Study UI with the visual direction shown in the example output.
 
-- Categories: [Ad Creative](https://aigptimage.com/image-prompts/ad-creative), [Product Advertising](https://aigptimage.com/image-prompts/product-advertising), [Illustration](https://aigptimage.com/image-prompts/illustration)
+- Categories: [Ads & Marketing](https://aigptimage.com/image-prompts/ads-marketing), [E-commerce & Product](https://aigptimage.com/image-prompts/ecommerce-product), [Illustration & Art](https://aigptimage.com/image-prompts/illustration-art)
 - Creator: [IndieDevHailey](https://x.com/IndieDevHailey)
 - Source: [Source post](https://x.com/IndieDevHailey/status/2044974254769463312)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/dark-mode-marketing-case-study-ui)
@@ -157,7 +163,7 @@ Use this GPT Image 2 prompt case to recreate Dark Mode Marketing Case Study UI w
 
 Use this GPT Image 2 prompt case to recreate Style-to-UI Design System with the visual direction shown in the example output.
 
-- Categories: [UI / Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup)
+- Categories: [UI & Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup)
 - Creator: [stark_nico99](https://x.com/stark_nico99)
 - Source: [Source post](https://x.com/stark_nico99/status/2045836554451706125)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/style-to-ui-design-system)
@@ -173,7 +179,7 @@ Use this GPT Image 2 prompt case to recreate Style-to-UI Design System with the 
 
 Use this GPT Image 2 prompt case to recreate Museum-Style Hanfu Breakdown Infographic with the visual direction shown in the example output.
 
-- Categories: [UI / Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup)
+- Categories: [UI & Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup)
 - Creator: [MrLarus](https://x.com/MrLarus)
 - Source: [Source post](https://x.com/MrLarus/status/2045504669401653414)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/museum-style-hanfu-breakdown-infographic)
@@ -189,7 +195,7 @@ Use this GPT Image 2 prompt case to recreate Museum-Style Hanfu Breakdown Infogr
 
 Use this GPT Image 2 prompt case to recreate Tropical Parrot Pixel Mosaic with the visual direction shown in the example output.
 
-- Categories: [UI / Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup)
+- Categories: [UI & Social Mockup](https://aigptimage.com/image-prompts/ui-social-mockup)
 - Creator: [erikmackinnon](https://x.com/erikmackinnon)
 - Source: [Source post](https://x.com/erikmackinnon/status/2048190288179675290)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/tropical-parrot-pixel-mosaic)
@@ -205,7 +211,7 @@ A vibrant pixel-art style mosaic of a tropical parrot perched on a small brown b
 
 Use this GPT Image 2 prompt case to recreate Persona5 Character Reference Card with the visual direction shown in the example output.
 
-- Categories: [Character Design](https://aigptimage.com/image-prompts/character-design), [Illustration](https://aigptimage.com/image-prompts/illustration)
+- Categories: [Character Design](https://aigptimage.com/image-prompts/character-design), [Illustration & Art](https://aigptimage.com/image-prompts/illustration-art)
 - Creator: [iamrednightS](https://x.com/iamrednightS)
 - Source: [Source post](https://x.com/iamrednightS/status/2045075682837836265)
 - Use on AIGPTIMAGE: [Open prompt page](https://aigptimage.com/image-prompts/p/persona5-character-reference-card)
@@ -221,30 +227,30 @@ The full library is better experienced on the site because it includes detail pa
 
 | Prompt | Primary category | Summary |
 | --- | --- | --- |
-| [E-commerce Main Image - Luxury Amber Perfume Ad](https://aigptimage.com/image-prompts/p/e-commerce-main-image-luxury-amber-perfume-ad) | E-commerce | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Luxury Amber P… |
-| [E-commerce Main Image - Skincare Product Studio Shot](https://aigptimage.com/image-prompts/p/e-commerce-main-image-skincare-product-studio-shot) | E-commerce | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Skincare Produ… |
-| [E-commerce Main Image - Tropical Citrus Soda Ad Poster](https://aigptimage.com/image-prompts/p/e-commerce-main-image-tropical-citrus-soda-ad-poster) | E-commerce | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Tropical Citru… |
-| [E-commerce Main Image - Industrial Design Presentation Sheet](https://aigptimage.com/image-prompts/p/e-commerce-main-image-industrial-design-presentation-sheet) | E-commerce | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Industrial Des… |
-| [4-Panel Japanese Digital Ad Banner Grid](https://aigptimage.com/image-prompts/p/4-panel-japanese-digital-ad-banner-grid) | Ad Creative | A GPT Image 2 ad creative prompt case for 4-Panel Japanese Digital Ad Banner Gr… |
-| [Anime Character Brand Identity & Merch Board](https://aigptimage.com/image-prompts/p/anime-character-brand-identity-merch-board) | Ad Creative | A GPT Image 2 ad creative prompt case for Anime Character Brand Identity & Merc… |
-| [Dark Mode Marketing Case Study UI](https://aigptimage.com/image-prompts/p/dark-mode-marketing-case-study-ui) | Ad Creative | A GPT Image 2 ad creative prompt case for Dark Mode Marketing Case Study UI. |
-| [18-Panel Mascot Brand Identity Document](https://aigptimage.com/image-prompts/p/18-panel-mascot-brand-identity-document) | Ad Creative | A GPT Image 2 ad creative prompt case for 18-Panel Mascot Brand Identity Docume… |
-| [Convenience Store Neon Portrait](https://aigptimage.com/image-prompts/p/convenience-store-neon-portrait) | Portrait / Avatar | A GPT Image 2 portrait & photography prompt case for Convenience Store Neon Por… |
-| [Cinematic Minimal Portrait](https://aigptimage.com/image-prompts/p/cinematic-minimal-portrait) | Portrait / Avatar | A GPT Image 2 portrait & photography prompt case for Cinematic Minimal Portrait. |
-| [Japanese Onsen Ryokan Portrait](https://aigptimage.com/image-prompts/p/japanese-onsen-ryokan-portrait) | Portrait / Avatar | A GPT Image 2 portrait & photography prompt case for Japanese Onsen Ryokan Port… |
-| [35mm Flash Editorial Portrait](https://aigptimage.com/image-prompts/p/35mm-flash-editorial-portrait) | Portrait / Avatar | A GPT Image 2 portrait & photography prompt case for 35mm Flash Editorial Portr… |
-| [Boston Spring 2026 City Poster](https://aigptimage.com/image-prompts/p/boston-spring-2026-city-poster) | Illustration | A GPT Image 2 poster & illustration prompt case for Boston Spring 2026 City Pos… |
-| [Vintage Amalfi Travel Poster](https://aigptimage.com/image-prompts/p/vintage-amalfi-travel-poster) | Illustration | A GPT Image 2 poster & illustration prompt case for Vintage Amalfi Travel Poste… |
-| [Chengdu Food Map Illustration](https://aigptimage.com/image-prompts/p/chengdu-food-map-illustration) | Illustration | A GPT Image 2 poster & illustration prompt case for Chengdu Food Map Illustrati… |
-| [Chinese Minimalist S-Shaped Poster](https://aigptimage.com/image-prompts/p/chinese-minimalist-s-shaped-poster) | Illustration | A GPT Image 2 poster & illustration prompt case for Chinese Minimalist S-Shaped… |
-| [Anime Snapshot Conversion](https://aigptimage.com/image-prompts/p/anime-snapshot-conversion) | Character Design | A GPT Image 2 character design prompt case for Anime Snapshot Conversion. |
-| [Persona5 Character Reference Card](https://aigptimage.com/image-prompts/p/persona5-character-reference-card) | Character Design | A GPT Image 2 character design prompt case for Persona5 Character Reference Car… |
-| [Gal Game Character Introduction Page](https://aigptimage.com/image-prompts/p/gal-game-character-introduction-page) | Character Design | A GPT Image 2 character design prompt case for Gal Game Character Introduction… |
-| [Official Character Sheet (JP)](https://aigptimage.com/image-prompts/p/official-character-sheet-jp) | Character Design | A GPT Image 2 character design prompt case for Official Character Sheet (JP). |
-| [One-Prompt UI Design Generation](https://aigptimage.com/image-prompts/p/one-prompt-ui-design-generation) | UI / Social Mockup | A GPT Image 2 ui & social media mockup prompt case for One-Prompt UI Design Gen… |
-| [Amateur iPhone Keynote Snapshot](https://aigptimage.com/image-prompts/p/amateur-iphone-keynote-snapshot) | UI / Social Mockup | A GPT Image 2 ui & social media mockup prompt case for Amateur iPhone Keynote S… |
-| [Handwritten Notebook Photo](https://aigptimage.com/image-prompts/p/handwritten-notebook-photo) | UI / Social Mockup | A GPT Image 2 ui & social media mockup prompt case for Handwritten Notebook Pho… |
-| [Song Dynasty Social Media Feed](https://aigptimage.com/image-prompts/p/song-dynasty-social-media-feed) | UI / Social Mockup | A GPT Image 2 ui & social media mockup prompt case for Song Dynasty Social Medi… |
+| [E-commerce Main Image - Luxury Amber Perfume Ad](https://aigptimage.com/image-prompts/p/e-commerce-main-image-luxury-amber-perfume-ad) | E-commerce & Product | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Luxury Amber P… |
+| [E-commerce Main Image - Skincare Product Studio Shot](https://aigptimage.com/image-prompts/p/e-commerce-main-image-skincare-product-studio-shot) | E-commerce & Product | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Skincare Produ… |
+| [E-commerce Main Image - Tropical Citrus Soda Ad Poster](https://aigptimage.com/image-prompts/p/e-commerce-main-image-tropical-citrus-soda-ad-poster) | E-commerce & Product | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Tropical Citru… |
+| [E-commerce Main Image - Industrial Design Presentation Sheet](https://aigptimage.com/image-prompts/p/e-commerce-main-image-industrial-design-presentation-sheet) | E-commerce & Product | A GPT Image 2 e-commerce prompt case for E-commerce Main Image - Industrial Des… |
+| [4-Panel Japanese Digital Ad Banner Grid](https://aigptimage.com/image-prompts/p/4-panel-japanese-digital-ad-banner-grid) | Ads & Marketing | A GPT Image 2 ad creative prompt case for 4-Panel Japanese Digital Ad Banner Gr… |
+| [Anime Character Brand Identity & Merch Board](https://aigptimage.com/image-prompts/p/anime-character-brand-identity-merch-board) | Ads & Marketing | A GPT Image 2 ad creative prompt case for Anime Character Brand Identity & Merc… |
+| [Dark Mode Marketing Case Study UI](https://aigptimage.com/image-prompts/p/dark-mode-marketing-case-study-ui) | Ads & Marketing | A GPT Image 2 ad creative prompt case for Dark Mode Marketing Case Study UI. |
+| [18-Panel Mascot Brand Identity Document](https://aigptimage.com/image-prompts/p/18-panel-mascot-brand-identity-document) | Ads & Marketing | A GPT Image 2 ad creative prompt case for 18-Panel Mascot Brand Identity Docume… |
+| [Convenience Store Neon Portrait](https://aigptimage.com/image-prompts/p/convenience-store-neon-portrait) | Portrait & Photography | A GPT Image 2 portrait & photography prompt case for Convenience Store Neon Por… |
+| [Cinematic Minimal Portrait](https://aigptimage.com/image-prompts/p/cinematic-minimal-portrait) | Portrait & Photography | A GPT Image 2 portrait & photography prompt case for Cinematic Minimal Portrait. |
+| [Japanese Onsen Ryokan Portrait](https://aigptimage.com/image-prompts/p/japanese-onsen-ryokan-portrait) | Portrait & Photography | A GPT Image 2 portrait & photography prompt case for Japanese Onsen Ryokan Port… |
+| [35mm Flash Editorial Portrait](https://aigptimage.com/image-prompts/p/35mm-flash-editorial-portrait) | Portrait & Photography | A GPT Image 2 portrait & photography prompt case for 35mm Flash Editorial Portr… |
+| [Rice Grain Micro Typography](https://aigptimage.com/image-prompts/p/rice-grain-micro-typography) | Poster & Typography | Use this GPT Image 2 prompt case to create Rice Grain Micro Typography with a r… |
+| [Where Is [Your Name] Crowd Search Poster](https://aigptimage.com/image-prompts/p/where-is-your-name-crowd-search-poster) | Poster & Typography | Use this GPT Image 2 prompt case to create Where Is [Your Name] Crowd Search Po… |
+| [1980s Propaganda Poster](https://aigptimage.com/image-prompts/p/1980s-propaganda-poster) | Poster & Typography | Use this GPT Image 2 prompt case to create 1980s Propaganda Poster with a reusa… |
+| [Celebrity Car Endorsement Poster](https://aigptimage.com/image-prompts/p/celebrity-car-endorsement-poster) | Poster & Typography | Use this GPT Image 2 prompt case to create Celebrity Car Endorsement Poster wit… |
+| [One-Prompt UI Design Generation](https://aigptimage.com/image-prompts/p/one-prompt-ui-design-generation) | UI & Social Mockup | A GPT Image 2 ui & social media mockup prompt case for One-Prompt UI Design Gen… |
+| [Amateur iPhone Keynote Snapshot](https://aigptimage.com/image-prompts/p/amateur-iphone-keynote-snapshot) | UI & Social Mockup | A GPT Image 2 ui & social media mockup prompt case for Amateur iPhone Keynote S… |
+| [Handwritten Notebook Photo](https://aigptimage.com/image-prompts/p/handwritten-notebook-photo) | UI & Social Mockup | A GPT Image 2 ui & social media mockup prompt case for Handwritten Notebook Pho… |
+| [Song Dynasty Social Media Feed](https://aigptimage.com/image-prompts/p/song-dynasty-social-media-feed) | UI & Social Mockup | A GPT Image 2 ui & social media mockup prompt case for Song Dynasty Social Medi… |
+| [Key Character Relationship Map](https://aigptimage.com/image-prompts/p/key-character-relationship-map) | Infographics & Education | Use this GPT Image 2 prompt case to create Key Character Relationship Map with… |
+| [Museum Catalog-Style Chinese Disassembly Infographic](https://aigptimage.com/image-prompts/p/museum-catalog-style-chinese-disassembly-infographic) | Infographics & Education | Use this GPT Image 2 prompt case to create Museum Catalog-Style Chinese Disasse… |
+| [World Time Analog Clock Wall](https://aigptimage.com/image-prompts/p/world-time-analog-clock-wall) | Infographics & Education | Use this GPT Image 2 prompt case to create World Time Analog Clock Wall with a… |
+| [Encyclopedia-Style Knowledge Card](https://aigptimage.com/image-prompts/p/encyclopedia-style-knowledge-card) | Infographics & Education | Use this GPT Image 2 prompt case to create Encyclopedia-Style Knowledge Card wi… |
 
 ## Product Paths
 

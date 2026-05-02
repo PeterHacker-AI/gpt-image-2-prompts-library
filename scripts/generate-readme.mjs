@@ -29,16 +29,22 @@ const FEATURED_SLUGS = [
 ];
 
 const CATEGORY_LABELS = {
-  ecommerce: 'E-commerce',
-  'product-advertising': 'Product Advertising',
-  'ad-creative': 'Ad Creative',
-  illustration: 'Illustration',
-  'portrait-avatar': 'Portrait / Avatar',
-  infographics: 'Infographics',
+  'portrait-photography': 'Portrait & Photography',
+  'ecommerce-product': 'E-commerce & Product',
+  'ads-marketing': 'Ads & Marketing',
+  'poster-typography': 'Poster & Typography',
+  'ui-social-mockup': 'UI & Social Mockup',
+  'infographics-education': 'Infographics & Education',
+  'diagram-reference': 'Diagrams & Reference',
+  'illustration-art': 'Illustration & Art',
   'character-design': 'Character Design',
-  'ui-social-mockup': 'UI / Social Mockup',
+  'game-entertainment': 'Game & Entertainment',
+  'video-collage-storyboard': 'Video, Collage & Storyboard',
+  'image-editing': 'Image Editing & Restoration',
+  'architecture-interior': 'Architecture & Interior',
+  'fashion-beauty': 'Fashion & Beauty',
+  'food-drink': 'Food & Drink',
   'creative-experiments': 'Creative Experiments',
-  comparison: 'Comparison',
 };
 
 function titleCaseSlug(slug) {
@@ -146,12 +152,21 @@ ${promptBody}
 
 function buildRecentTable(prompts) {
   const bucketOrder = [
-    'ecommerce',
-    'ad-creative',
-    'portrait-avatar',
-    'illustration',
-    'character-design',
+    'ecommerce-product',
+    'ads-marketing',
+    'portrait-photography',
+    'poster-typography',
     'ui-social-mockup',
+    'infographics-education',
+    'diagram-reference',
+    'illustration-art',
+    'character-design',
+    'game-entertainment',
+    'video-collage-storyboard',
+    'image-editing',
+    'architecture-interior',
+    'fashion-beauty',
+    'food-drink',
     'creative-experiments',
   ];
   const perBucket = new Map();
