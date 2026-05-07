@@ -2,7 +2,7 @@
 
 AIGPTIMAGE 프롬프트 라이브러리에서 정리한 GPT Image 2 프롬프트 예시입니다. GitHub는 발견을 위한 공간이며, 전체 탐색, 생성, 구독, API 사용은 [aigptimage.com](https://aigptimage.com/ko)에서 진행합니다.
 
-[![Validate repository](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml/badge.svg)](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml)
+[![Validate repository](https://github.com/PeterHacker-AI/gpt-image-2-prompts-library/actions/workflows/validate.yml/badge.svg)](https://github.com/PeterHacker-AI/gpt-image-2-prompts-library/actions/workflows/validate.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/Prompt%20Content-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/Try%20prompts-aigptimage.com-111111.svg)](https://aigptimage.com/ko/image-prompts)
 

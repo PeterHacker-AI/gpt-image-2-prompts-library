@@ -2,7 +2,7 @@
 
 AIGPTIMAGE のプロンプトライブラリから整理した GPT Image 2 プロンプト例です。GitHub は発見用で、完全な閲覧、生成、サブスクリプション、API 利用は [aigptimage.com](https://aigptimage.com/ja) で行います。
 
-[![Validate repository](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml/badge.svg)](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml)
+[![Validate repository](https://github.com/PeterHacker-AI/gpt-image-2-prompts-library/actions/workflows/validate.yml/badge.svg)](https://github.com/PeterHacker-AI/gpt-image-2-prompts-library/actions/workflows/validate.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/Prompt%20Content-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/Try%20prompts-aigptimage.com-111111.svg)](https://aigptimage.com/ja/image-prompts)
 

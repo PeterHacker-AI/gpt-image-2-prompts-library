@@ -8,6 +8,7 @@ const repoRoot = path.resolve(__dirname, '..');
 const dataPath = path.join(repoRoot, 'data', 'prompts.json');
 
 const SITE_URL = 'https://aigptimage.com';
+const REPOSITORY_URL = 'https://github.com/PeterHacker-AI/gpt-image-2-prompts-library';
 const SNAPSHOT_DATE = '2026-05-02';
 
 const LANGUAGES = [
@@ -559,7 +560,7 @@ function buildReadme(prompts, locale) {
 
 ${replaceParams(t(locale, 'intro'), { siteUrl })}
 
-[![Validate repository](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml/badge.svg)](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml)
+[![Validate repository](${REPOSITORY_URL}/actions/workflows/validate.yml/badge.svg)](${REPOSITORY_URL}/actions/workflows/validate.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/Prompt%20Content-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/Try%20prompts-aigptimage.com-111111.svg)](${localLibraryUrl})
 
