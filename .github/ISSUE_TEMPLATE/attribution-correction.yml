@@ -1,0 +1,31 @@
+name: Attribution correction
+description: Request creator, source, or license metadata correction
+title: "[Attribution] <prompt slug or title>"
+labels: ["attribution"]
+body:
+  - type: input
+    id: prompt
+    attributes:
+      label: Prompt entry
+      description: Prompt title, slug, or README link.
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current attribution
+      description: Existing creator/source shown in the repository.
+  - type: input
+    id: requested
+    attributes:
+      label: Correct attribution
+      description: Correct creator name and profile/source URL.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Verification link or explanation
+      description: Link or context that helps maintainers verify the correction.
+    validations:
+      required: true

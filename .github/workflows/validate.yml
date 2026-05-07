@@ -26,5 +26,5 @@ jobs:
       - name: Regenerate README
         run: npm run generate
 
-      - name: Ensure README is committed
-        run: git diff --exit-code README.md
+      - name: Ensure generated READMEs are committed
+        run: git diff --exit-code README*.md

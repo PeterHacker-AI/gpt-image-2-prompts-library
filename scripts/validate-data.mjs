@@ -7,7 +7,17 @@ const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, '..');
 const dataPath = path.join(repoRoot, 'data', 'prompts.json');
 const manifestPath = path.join(repoRoot, 'data', 'asset-manifest.csv');
-const readmePath = path.join(repoRoot, 'README.md');
+const readmeFiles = [
+  'README.md',
+  'README_zh.md',
+  'README_zh-TW.md',
+  'README_ja-JP.md',
+  'README_ko-KR.md',
+  'README_es-ES.md',
+  'README_de-DE.md',
+  'README_fr-FR.md',
+  'README_pt-BR.md',
+];
 
 const FEATURED_SLUGS = [
   'e-commerce-main-image-luxury-amber-perfume-ad',
@@ -33,7 +43,6 @@ function isNonEmptyString(value) {
 
 const prompts = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const manifest = fs.readFileSync(manifestPath, 'utf8');
-const readme = fs.readFileSync(readmePath, 'utf8');
 const slugSet = new Set();
 
 if (!Array.isArray(prompts) || prompts.length === 0) {
@@ -72,16 +81,29 @@ if (!manifest.includes('https://cdn.aigptimage.com/')) {
   fail('data/asset-manifest.csv does not contain expected CDN URLs.');
 }
 
-if (!readme.includes('https://aigptimage.com/image-prompts')) {
-  fail('README is missing the prompt library link.');
-}
+for (const fileName of readmeFiles) {
+  const readmePath = path.join(repoRoot, fileName);
+  if (!fs.existsSync(readmePath)) {
+    fail(`${fileName} is missing.`);
+    continue;
+  }
 
-if (!readme.includes('https://aigptimage.com/pricing')) {
-  fail('README is missing the pricing link.');
-}
-
-if (!readme.includes('https://aigptimage.com/docs')) {
-  fail('README is missing the API docs link.');
+  const readme = fs.readFileSync(readmePath, 'utf8');
+  if (!readme.includes('aigptimage.com')) {
+    fail(`${fileName} is missing aigptimage.com links.`);
+  }
+  if (!readme.includes('README_zh.md') || !readme.includes('README_ja-JP.md')) {
+    fail(`${fileName} is missing language navigation.`);
+  }
+  if (!readme.includes('https://aigptimage.com') || !readme.includes('/image-prompts')) {
+    fail(`${fileName} is missing the prompt library link.`);
+  }
+  if (!readme.includes('/pricing')) {
+    fail(`${fileName} is missing the pricing link.`);
+  }
+  if (!readme.includes('/docs')) {
+    fail(`${fileName} is missing the API docs link.`);
+  }
 }
 
 if (process.exitCode) {

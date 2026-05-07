@@ -2,9 +2,11 @@
 
 Curated GPT Image 2 prompt examples prepared from the AIGPTIMAGE prompt library. This snapshot repository is designed for GitHub discovery, while the full browsing and generation workflow lives on [aigptimage.com](https://aigptimage.com).
 
-[![Validate repository](https://github.com/aigptimage/awesome-gpt-image-2-prompts/actions/workflows/validate.yml/badge.svg)](https://github.com/aigptimage/awesome-gpt-image-2-prompts/actions/workflows/validate.yml)
+[![Validate repository](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml/badge.svg)](https://github.com/GeekGallifrey/GPT-Image-2-Prompts/actions/workflows/validate.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/Prompt%20Content-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/Try%20prompts-aigptimage.com-111111.svg)](https://aigptimage.com/image-prompts)
+
+[![English](https://img.shields.io/badge/English-Current-brightgreen)](README.md) [![简体中文](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-View-lightgrey)](README_zh.md) [![繁體中文](https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-View-lightgrey)](README_zh-TW.md) [![日本語](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-View-lightgrey)](README_ja-JP.md) [![한국어](https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-View-lightgrey)](README_ko-KR.md) [![Español](https://img.shields.io/badge/Espa%C3%B1ol-View-lightgrey)](README_es-ES.md) [![Deutsch](https://img.shields.io/badge/Deutsch-View-lightgrey)](README_de-DE.md) [![Français](https://img.shields.io/badge/Fran%C3%A7ais-View-lightgrey)](README_fr-FR.md) [![Português](https://img.shields.io/badge/Portugu%C3%AAs-View-lightgrey)](README_pt-BR.md)
 
 ## Why this repo exists
 
@@ -254,16 +256,20 @@ The full library is better experienced on the site because it includes detail pa
 
 ## Product Paths
 
-- Prompt library: [aigptimage.com/image-prompts](https://aigptimage.com/image-prompts)
-- Prompt detail pages: `https://aigptimage.com/image-prompts/p/<slug>`
-- Category pages: `https://aigptimage.com/image-prompts/<category-slug>`
-- Pricing and subscriptions: [aigptimage.com/pricing](https://aigptimage.com/pricing)
-- API docs: [aigptimage.com/docs](https://aigptimage.com/docs)
-- API keys: [aigptimage.com/settings/apikeys](https://aigptimage.com/settings/apikeys)
+- Browse the full prompt library: [aigptimage.com/image-prompts](https://aigptimage.com/image-prompts)
+- Open prompt page: `https://aigptimage.com/image-prompts/p/<slug>`
+- Categories: `https://aigptimage.com/image-prompts/<category-slug>`
+- View pricing and subscriptions: [aigptimage.com/pricing](https://aigptimage.com/pricing)
+- Read the API docs: [aigptimage.com/docs](https://aigptimage.com/docs)
+- Create an API key: [aigptimage.com/settings/apikeys](https://aigptimage.com/settings/apikeys)
 
 ## Rights and Attribution
 
 Prompt content is published under CC BY 4.0 with creator attribution when available. Code in this repository is MIT licensed. For attribution corrections or removal requests, open a content removal issue.
+
+## Issues and Contributions
+
+Use GitHub Issues to submit new prompt candidates, report metadata problems, request attribution corrections, or ask for content removal. Maintainers review issue submissions before updating the static data snapshot.
 
 ## Data Files
 
@@ -280,4 +286,4 @@ npm run validate
 npm run generate
 ```
 
-The generator reads `data/prompts.json` and rewrites this README. Validation checks required fields, featured examples, CDN image URLs, and the asset manifest.
+The generator reads `data/prompts.json` and rewrites every README language file. Validation checks required fields, featured examples, CDN image URLs, multilingual README links, and the asset manifest.

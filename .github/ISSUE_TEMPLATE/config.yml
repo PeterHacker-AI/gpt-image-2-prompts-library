@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Use the prompt library
+    url: https://aigptimage.com/image-prompts
+    about: Browse and use GPT Image 2 prompts on AIGPTIMAGE.
+  - name: API documentation
+    url: https://aigptimage.com/docs
+    about: Build with the AIGPTIMAGE API.

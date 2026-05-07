@@ -1,0 +1,87 @@
+name: Submit a prompt
+description: Suggest a GPT Image 2 prompt for the library
+title: "[Prompt] <short title>"
+labels: ["prompt-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit a prompt candidate for maintainer review. Approved submissions are added to the static data snapshot by maintainers.
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+      description: Short descriptive title.
+      placeholder: "Luxury perfume product ad"
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt text
+      description: Full reusable prompt text.
+      placeholder: "Paste the full prompt here..."
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What this prompt creates and when to use it.
+    validations:
+      required: true
+  - type: textarea
+    id: image_urls
+    attributes:
+      label: Output image URLs
+      description: One public image URL per line. CDN-hosted images are preferred.
+      placeholder: |
+        https://example.com/image-1.webp
+        https://example.com/image-2.webp
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator name
+      description: Original creator name or handle.
+    validations:
+      required: true
+  - type: input
+    id: creator_url
+    attributes:
+      label: Creator profile URL
+      placeholder: "https://x.com/username"
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Original post, article, or source page.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Prompt language
+      options:
+        - English
+        - Chinese
+        - Traditional Chinese
+        - Japanese
+        - Korean
+        - Spanish
+        - German
+        - French
+        - Portuguese
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights confirmation
+      options:
+        - label: I have the right to submit this prompt or I am submitting it with proper attribution.
+          required: true
+        - label: I understand accepted prompt content may be published under CC BY 4.0.
+          required: true

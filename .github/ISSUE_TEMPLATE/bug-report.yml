@@ -1,0 +1,29 @@
+name: Bug or data issue
+description: Report a broken link, wrong metadata, or repository issue
+title: "[Bug] <short description>"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong?
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: README section, prompt slug, file path, or URL.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected correction
+      description: What should it be changed to?
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, source links, or notes.

@@ -2,6 +2,14 @@
   color: 'd73a4a'
   description: 'Request removal or correction of prompt content.'
 
+- name: prompt-submission
+  color: '2ea44f'
+  description: 'New prompt candidate submitted through GitHub Issues.'
+
+- name: bug
+  color: 'd73a4a'
+  description: 'Something is broken or inaccurate.'
+
 - name: attribution
   color: '0366d6'
   description: 'Creator attribution or source metadata correction.'
