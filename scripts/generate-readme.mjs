@@ -24,16 +24,16 @@ const LANGUAGES = [
 ];
 
 const FEATURED_SLUGS = [
+  'luxury-glam-beauty-portrait',
+  'dreamy-backlit-editorial-portrait',
+  'soft-airy-35mm-portrait',
+  '35mm-flash-editorial-portrait',
+  'japanese-onsen-ryokan-portrait',
   'e-commerce-main-image-luxury-amber-perfume-ad',
   'chengdu-food-map-illustration',
   'science-encyclopedia-infographic',
-  'luxury-glam-beauty-portrait',
   'anime-character-brand-identity-merch-board',
-  'dark-mode-marketing-case-study-ui',
   'style-to-ui-design-system',
-  'museum-style-hanfu-breakdown-infographic',
-  'tropical-parrot-pixel-mosaic',
-  'persona5-character-reference-card',
 ];
 
 const CATEGORY_LABELS = {
